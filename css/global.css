@@ -104,6 +104,7 @@ li {
     margin: 0 auto;
     padding: 2rem;    
   }
+
   .grid__item {
     max-width: 50%;
   }
@@ -119,9 +120,11 @@ section {
   margin-top: 0;
   font-size: 3.8rem;  
 }
+
 .section-header {
   text-align: center;
 }
+
 @media screen and (min-width:750px) {
   .section-title {    
     font-size: 4.8rem;  
@@ -153,7 +156,6 @@ section {
 }
 .header a {
   color:  var(--color-body);
-;
 }
 .header a:hover {
   color: red;
@@ -175,6 +177,7 @@ section {
 .socials a {
   padding: 0 2px;
 }
+
 .socials .icon {
   height: 18px;
 }
@@ -194,7 +197,6 @@ section {
   width: 22px;
   height: 3px;
   background:  var(--color-body);
-;
 }
 
 .burger .bar::before, .burger .bar::after {
@@ -203,25 +205,22 @@ section {
   width: 22px;
   height: 3px;
   background:  var(--color-body);
-;
   position: absolute;
 }
 
 .burger .bar::before {
   transform: translateY(-8px);
 }
+
 .burger .bar::after {
   transform: translateY(8px);
-}
-
-@media screen and (max-width:749px) {
-
 }
 
 @media screen and (min-width:750px) {
   .navbar {
     display: flex;
   }
+
   .burger {
     display: none;
   } 
@@ -266,6 +265,7 @@ section {
   .hero__item.left {
     order:2;
   }
+
   .hero__item.right {
     order:1;
   }
@@ -273,16 +273,18 @@ section {
 
 @media screen and (min-width:750px) {
   .hero__item {
-    flex:1 0 50%;
-    
+    flex:1 0 50%;    
     text-align: left;
   }
+
   .hero__item.left {
     align-items:flex-start;
   }
+
   .hero .title {
     font-size: 5rem;   
   }
+
   .hero__avatar img {
     max-width: 400px;
     border-radius: 50%;
@@ -308,8 +310,7 @@ section {
   align-items: center;
   justify-content: center;
   width: 90px;
-  height: 90px;
-  
+  height: 90px;  
   border:2px solid #5b6c78;
   border-radius: 50%;
 }
@@ -330,6 +331,7 @@ section {
   .service {
     text-align: center;
   }
+
   .service__icon { 
     margin:0 auto;
   }
@@ -340,6 +342,7 @@ section {
     display: flex;
     align-items: center;
   }
+
   .service__icon { 
     margin-right:2rem;
   }
@@ -358,9 +361,9 @@ section {
 .skills .progressbar {
   background: #F5F5F5;
   color: #FFF;
-  margin-bottom: 1rem;
-  
+  margin-bottom: 1rem;  
 }
+
 .skills .bar {
   background: #5b6c78;
   padding: 1rem;
@@ -382,20 +385,17 @@ section {
 
 .portfolio-filters a {
   color: var(--color-body);
-;
   background: #EEE;
   display: flex;
   flex:1;
   justify-content: center;
   padding:1rem;
 }
+
 .portfolio-filters a.active {
   color: #FFF;
   background:#5b6c78;
 }
-
-
-
 
 @media screen and (max-width:749px) {
  .portfolio a {
@@ -407,13 +407,10 @@ section {
  .portfolio-filters .grid__item {
     max-width: 25%;
   }
+
   .portfolio .grid__item {
     max-width: 33.3333%;   
   }
-}
-
-@media screen and (min-width:750px) {
- 
 }
 
 .card {
@@ -434,7 +431,6 @@ section {
 }
 
 .card__overlay {
-  
   background: rgba(0,0,0,0.8);
   position: absolute;
   top:0;
@@ -457,6 +453,7 @@ section {
   max-width: 600px;
   margin: 4rem auto 0 auto;
 }
+
 .form input, .form textarea {
  display: block;
  width: 100%;
@@ -471,7 +468,6 @@ section {
 .form .btn {
   border:none;
   background:  var(--color-body);
-;
   color: #FFF;
   width: auto;
   min-width: 160px;
@@ -524,10 +520,6 @@ footer .socials a {
 footer .socials a:hover {
   background: #FFF;
   color:  var(--color-body);
-;
-}
-@media screen and (min-width:750px) {
- 
 }
 
 .toto {
