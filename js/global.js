@@ -205,6 +205,7 @@ function showProjectDetails() {
   links.forEach(elem => {
     elem.addEventListener('click', (event) => {
       event.preventDefault();
+
       document.querySelector(`[id=${elem.dataset.id}]`).classList.add('show');
     });
   });
@@ -265,3 +266,5 @@ const observerIntersectionAnimation = () => {
 }
 
 observerIntersectionAnimation();
+
+
